@@ -1,0 +1,44 @@
+<html>
+<header>
+<title>resume preparation</title>
+<img align="right" src="C:/Users/Student.DESKTOP-N872A1D/Downloads/IMG_20240207_083441.jpg" width="150" height="150">
+<h1 align="center">Puneeth N Resume</h1>
+<h5>Name:Puneeth.N</h5>
+<h5>Email:puneethpunee104@gmail.com</h5>
+<h5>Mobile no:9844939630<h5>
+<h5>Address:Bengaluru<h5>
+</head>
+
+<body>
+<article>
+<section>
+<h1><b><u>Academic Qualifiction</u></b></h1>
+<table border="2"><tr><th>Degree</th><th>University</th><th>Years of passing</th><th>CGPA</th></tr>
+<tr><td>b.tech</td><td>Presidency university</td><td>2022</td><td>86%</td></tr>
+<tr><td>2nd puc</td><td>Sir M V</td><td>2020</td><td>94%</td></tr>
+<tr><td>10th std</td><td>Scholars Academy English School</td><td>2019</td><td>93%</td></tr>
+</table>
+<h1><u>Skills:</u></h1>
+<ul><li>java</li><li>python</li><li>web technology</li><li>Database Management</li><li>Datastructures</li></ul>
+<h1><u>Certification:</u></h1>
+<ul><li>simplylearn csrtifiction</li><li>python certifiction</li><li>Datastructures certifiction</li><li>Aurdino certificate</li></ul>
+<h1><u>Miniprojects:</u></h1>
+<ul><li><p>I have completed my first project in aurdino which includes c and c++ language based on how a system will detect hand gestures based on hand positions</p></li>
+<li><p>I have also completed my python project that is rasberry pi which is based on how a system will alert the unauthorized fingerprint</p></li>
+<li><p>I have also done a mini project based on r programming which usually predicts and visualizes the data given</p></li>
+</section></article></body>
+<footer>
+<h1>Declaration:</h1>
+<p>"I hereby declare that all the information given above is true and correct to the best of my knowledge. All the information shared in the resume is correct, and I take full responsibility for its correctness.
+ I solemnly declare that the information in this resume is true to the best of my knowledge and belief."</p>
+ <br>
+ <div style="text-align:left;">
+ <p>Date: 8/10/2023</p>
+ <p>Place:Bengaluru</p></div>
+ <div style="text-align:right;">
+ <p>Yours faithfully:<br>Puneeth.N</p>
+</div>
+</footer>
+</section>
+</body>
+</html>
