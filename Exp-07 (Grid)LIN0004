@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Grid Image</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    img {
+        height: 100%;
+    }
+    .wrapper {
+        max-width: 800px;
+    }
+  </style>
+  <body class="bg-light">
+    <div class="wrapper mx-auto py-4">
+        <div class="container">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row ">
+              <div class="col-md-8 pb-4">
+                <img class=" d-block w-100 object-fit-fill" src="c:\Users\Student\Desktop\New folder\illustration-indian-army-independence-day-india_470436-1008 (1).avif" alt="">
+              </div>
+              <div class="col-12 col-md-4 pb-4">
+                <img class=" d-block  w-100 object-fit-fill" src="c:\Users\Student\Desktop\New folder\5893c0895883c5dab6d0ff019782cee7.jpg" alt="">
+              </div>
+            </div>
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row">
+              <div class="col-6 col-md-4 pb-4">
+                <img class="d-block w-100 object-fit-cover" src="c:\Users\Student\Desktop\New folder\download.jpg" alt="">
+              </div>
+              <div class="col-6 col-md-4 pb-4">
+                <img class=" d-block w-100 object-fit-cover" src="c:\Users\Student\Desktop\New folder\indian-army-may-postpone-purchasing-of-critical-weapons.jpg" alt="">
+              </div>
+              <div class="col-12 col-md-4 pb-4">
+                <img class="d-block  w-100 object-fit-cover" src="c:\Users\Student\Desktop\New folder\indian-army-day-tricolour-flag-war-background-generative-ai_960080-411.avif" alt="">
+              </div>
+            </div>
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row">
+              <div class="col-6 pb-4" >
+                <img class="d-block w-100 object-fit-cover" src="c:\Users\Student\Desktop\New folder\1ef49ddd59fc4c989f7799905d4156b41683358863633566_original.avif" alt="">
+              </div>
+              <div class="col-6 pb-4" >
+                <img class="d-block  w-100 object-fit-cover" src="c:\Users\Student\Desktop\New folder\20230129_135120-696x485.webp" alt="">
+              </div>
+            </div>
+          </div>
+    </div> 
+    </body>
+  </html>
