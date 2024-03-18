@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Eats - Restaurant Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: italian, sans-serif;
+        }
+        .hero {
+            background-image: url('https://media.istockphoto.com/id/1428737062/photo/empty-wooden-table-top-with-lights-bokeh-on-blur-restaurant-background.webp?b=1&s=170667a&w=0&k=20&c=bmQyPVwhLAB_FN9glJrREyPxzmIQPv5TOFcqcXHy2pw='); /* Add your background image URL here */
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .menu {
+            padding: 50px;
+            text-align: center;
+        }
+        .dish {
+            margin-bottom: 30px;
+        }
+        .dish img {
+            width: 400px; /* Adjust image size as needed */
+            height: 300px;
+            border-radius: 70%;
+        }
+        .contact-feedback {
+            background-color: #f4f4f4;
+            padding: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<section class="hero">
+    <h1>Welcome to Delicious Eats</h1>
+    <p>Explore our mouth-watering menu!</p>
+</section>
+
+<section class="menu">
+    <div class="dish">
+        <img src="C:\Users\DELL\Desktop\k1.jpg" alt="Dish 1">
+        <h2>Chicken Kabab</h2>
+        <p>One plate = 249/-</p>
+    </div>
+    <div class="dish">
+        <img src="C:\Users\DELL\Desktop\br1.jpg" alt="Dish 2">
+        <h2>Chicken Biriyani</h2>
+        <p>One Plate = 349/-</p>
+    </div>
+    <div class="dish">
+        <img src="C:\Users\DELL\Desktop\f1.jpg" alt="Dish 3">
+        <h2>Fish Fry</h2>
+        <p>One Plate = 349/-</p>
+    </div>
+</section>
+
+<section class="contact-feedback">
+    <h2>Contact Us & Leave Feedback</h2>
+    <p>Reach out to us for reservations, queries, or any feedback you may have!</p>
+    <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name"><br><br>
+        <input type="email" name="email" placeholder="Your Email"><br><br>
+        <textarea name="message" cols="30" rows="5" placeholder="Your Message"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</section>
+
+</body>
+</html>
